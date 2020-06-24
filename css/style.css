@@ -1,3 +1,119 @@
 body{
   background-color: black;
 }
+
+.body1{
+  margin: 0;
+  background: black;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: lime;
+  padding: 20px 100px;
+}
+.container1{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 22px;
+    padding: 25px;
+    color: lime;
+    display: grid;
+    grid-template-columns: 1fr;
+    position: center;
+}
+
+.header{
+  padding: 20px;
+  background: black;
+  color: lime;
+  text-transform: uppercase;
+}
+
+.header h1{
+  position: center;
+  text-align: center;
+  font-size: 45px;
+}
+
+.nav-wrapper{
+  display: flex;
+  justify-content: space-between;
+  padding: 33px;
+  background-color: #222222;
+}
+
+.left-side{
+  display: flex;
+}
+
+.nav-wrapper > .left-side > div{
+  margin-right: 20px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+
+.nav-wrapper > .right-side > div{
+  margin-right: 20px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  color: lime;
+}
+
+.nav-link-wrapper{
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper > a{
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover{
+    border-bottom: 1px solid lime;
+}
+
+.nav-link-wrapper a:hover{
+    color: lime;
+}
+
+
+.active-nav-link{
+  border-bottom: 1px whitesmoke;
+}
+
+/*override the default colour*/
+
+.active-nav-link a{
+  color: lime !important;
+}
+
+.nav-link-wrapper > .about{
+  scroll-behavior: smooth;
+}
+
+.jumbo{
+  background-color: black;
+}
+
+#twin{
+  font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    color: lime;
+}
+ h1, small {
+   text-align: center;
+ }
+
+ /*
+#feedback {
+    background-color: black;
+}
+*/
+.footer {
+  background-color: #222222;
+  font-size: large;
+  color: limegreen;
+  align-items: center;
+  padding: 20px;
+}
