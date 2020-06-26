@@ -8,6 +8,8 @@ body{
   font-family: 'Open Sans Condensed', sans-serif;
   color: lime;
   padding: 20px 100px;
+  align-items: center;
+  align-content: center;
 }
 .container1{
     font-family: 'Open Sans Condensed', sans-serif;
@@ -56,10 +58,19 @@ body{
   color: lime;
 }
 
+.fa-gamepad{
+  color: gray;
+  size: 24px;
+}
+
 .nav-link-wrapper{
     height: 22px;
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.5s;
+}
+
+#twin{
+         color: lavender;
 }
 
 .nav-link-wrapper > a{
@@ -110,6 +121,36 @@ body{
     background-color: black;
 }
 */
+
+.marquee-class{
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: black;
+}
+
+marquee{
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: silver;
+}
+
+ #socialmedia {
+   background-color: black;
+}
+
+.socialmedia {
+  text-align: center;
+  color: lime;
+  background-color: black;
+}
+
+#logos {
+        height: 100px;
+        width: 100px;
+}
+
+.line{
+  width: 1100px;
+}
+
 .footer {
   background-color: #222222;
   font-size: large;
