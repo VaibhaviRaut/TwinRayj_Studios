@@ -140,6 +140,7 @@ marquee{
   text-align: center;
   color: lime;
   background-color: black;
+  margin: 0px;
 }
 
 #logos {
